@@ -1,0 +1,235 @@
+{
+  "uuid": "8a89b6f868014d50954da533ec9b38d2",
+  "path": "Offline/ENC_BOARD",
+  "name": "ENC_BOARD",
+  "content": "ENCODER HIGH SPEED BOARD FOR EC500/EC300 BOARDS",
+  "created_at": "2023-12-03 15:59:50",
+  "updated_at": "2024-01-01 16:07:12",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "da069f8d78902983013170a10b62f1c6",
+      "title": "SHC_ENC_BOARD",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "89c0c66ea2f74eefb849349abf769b23": 3,
+        "2e22ba5c32f665d34776efb9d595e83b": 12,
+        "0e9af40e10eb0954509ee99672d67d03": 6,
+        "154b66255b01a09bf1c88bb1ea89be78": 9,
+        "03b5f197778446d5b15284928fcb6705": 8,
+        "49ea4079efa047bb9f273fe4caa45831": 8,
+        "fb2ebfc85dc44bd68b34480152a6c3d1": 3,
+        "55a632c697a949edbdb299f2e0368c6b": 2,
+        "cf28e39fafb0494782d26a03c3e63073": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "KH-2.54PH180-1X3P-L11.5",
+          2,
+          "HDR-TH_3P-P2.54-V-M",
+          "3V3_JUMPER,5V_JUMPER",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2932698",
+            "Manufacturer": "kinghelm(金航标)",
+            "Manufacturer Part": "KH-2.54PH180-1X3P-L11.5",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C2932698&%26type=1&ref=editor",
+            "spiceSymbolName": "KH-2.54PH180-1X3P-L11.5",
+            "puuid": "5c0be672313e4206a41dd5398a02f108",
+            "uuid": "55a632c697a949edbdb299f2e0368c6b"
+          }
+        ],
+        [
+          "DB128L-5.08-2P-GN-P",
+          2,
+          "CONN-TH_2P-P5.08_DB128L-5.08-2P-GN-P",
+          "24V_3V3_CONN,24V_5V_CONN",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C430600",
+            "Manufacturer": "DIBO(地博电气)",
+            "Manufacturer Part": "DB128L-5.08-2P-GN-P",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C430600&%26type=1&ref=editor",
+            "spiceSymbolName": "DB128L-5.08-2P-GN-P",
+            "puuid": "4a997674718a42b9af95f5b37581e183",
+            "uuid": "cf28e39fafb0494782d26a03c3e63073"
+          }
+        ],
+        [
+          "100nF",
+          9,
+          "C0603",
+          "C1_3V3,C1_5V,C2_3V3,C2_5V,C3_3V3,C3_5V,C_DRV1,C_DRV2,C_DRV3",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "CC0603KRX7R9BB104",
+            "Supplier Part": "C14663",
+            "JLCPCB Part Class": "Basic Part",
+            "link": "https://lcsc.com/eda_search?q=C14663&%26type=1&ref=editor",
+            "spiceSymbolName": "CC0603KRX7R9BB104",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "154b66255b01a09bf1c88bb1ea89be78"
+          }
+        ],
+        [
+          "AM26LS32ACDR",
+          3,
+          "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL",
+          "DRV1,DRV2,DRV3",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "AM26LS32ACDR",
+            "Supplier Part": "C6180",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C6180&%26type=1&ref=editor",
+            "spiceSymbolName": "AM26LS32ACDR",
+            "puuid": "5cafa9ae5a9e4b2ab529c9f08b47eb94",
+            "uuid": "fb2ebfc85dc44bd68b34480152a6c3d1"
+          }
+        ],
+        [
+          "RC00134",
+          8,
+          "RJ45-TH_RC00134",
+          "ENC1_3V3_CONN,ENC1_5V_CONN,ENC2_3V3_CONN,ENC2_5V_CONN,ENC3_3V3_CONN,ENC3_5V_CONN,ENC4_3V3_CONN,ENC4_5V_CONN",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C708594",
+            "Manufacturer": "RCH(瑞川)",
+            "Manufacturer Part": "RC00134",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C708594&%26type=1&ref=editor",
+            "spiceSymbolName": "RC00134",
+            "puuid": "7969923854d64accbec36ef762540d70",
+            "uuid": "49ea4079efa047bb9f273fe4caa45831"
+          }
+        ],
+        [
+          "ZX-PZ2.54-1-1PZZ",
+          8,
+          "HDR-TH_1P-P2.54-V-M",
+          "GND_IN_3V3_REG,GND_IN_5V_REG,GND_OUT_3V3,GND_OUT_5V,VIN_3V3_REG,VIN_5V_REG,VOUT_3V3,VOUT_5V",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C7501259",
+            "Manufacturer": "Megastar(兆星)",
+            "Manufacturer Part": "ZX-PZ2.54-1-1PZZ",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C7501259&%26type=1&ref=editor",
+            "spiceSymbolName": "ZX-PZ2.54-1-1PZZ",
+            "puuid": "3036750d1d0a4e9fa4035186551a7693",
+            "uuid": "03b5f197778446d5b15284928fcb6705"
+          }
+        ],
+        [
+          "ISO7740DWR",
+          3,
+          "SOIC-16_L10.3-W7.5-P1.27-LS10.3-BL",
+          "ISOL1,ISOL2,ISOL3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C529547",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "ISO7740DWR",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C529547&%26type=1&ref=editor",
+            "spiceSymbolName": "ISO7740DWR",
+            "puuid": "c3a3a479239346a8bb3da07840bfe89e",
+            "uuid": "89c0c66ea2f74eefb849349abf769b23"
+          }
+        ],
+        [
+          "4.7kΩ",
+          6,
+          "R0603",
+          "R1_EN,R2_EN,R3_EN,RG1,RG2,RG3",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Manufacturer Part": "0603WAF4701T5E",
+            "Supplier Part": "C23162",
+            "JLCPCB Part Class": "Basic Part",
+            "link": "https://lcsc.com/eda_search?q=C23162&%26type=1&ref=editor",
+            "spiceSymbolName": "0603WAF4701T5E",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "0e9af40e10eb0954509ee99672d67d03"
+          }
+        ],
+        [
+          "120Ω",
+          12,
+          "R0603",
+          "RE1A,RE1B,RE1I,RE2A,RE2B,RE2I,RE3A,RE3B,RE3I,RE4A,RE4B,RE4I",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Manufacturer Part": "0603WAF1200T5E",
+            "Supplier Part": "C22787",
+            "JLCPCB Part Class": "Basic Part",
+            "link": "https://lcsc.com/eda_search?q=C22787&%26type=1&ref=editor",
+            "spiceSymbolName": "0603WAF1200T5E",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "2e22ba5c32f665d34776efb9d595e83b"
+          }
+        ]
+      ],
+      "updateTime": 1704119132,
+      "createTime": 1701615590,
+      "histories": [],
+      "created_at": "2023-12-03 15:59:50",
+      "updated_at": "2024-01-01 15:25:32"
+    },
+    {
+      "uuid": "78ca39a5f0ded3bfe0ef8c85b69eb727",
+      "puuid": "8a89b6f868014d50954da533ec9b38d2",
+      "title": "PCB_ENC_BOARD",
+      "filename": "PCB_ENC_BOARD.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4a997674718a42b9af95f5b37581e183": 2,
+        "5c0be672313e4206a41dd5398a02f108": 2,
+        "f8151fdc728a41ebbc304e11d39e5437": 9,
+        "c3a3a479239346a8bb3da07840bfe89e": 3,
+        "398691f1f785460098bbe5ee6590333c": 18,
+        "3036750d1d0a4e9fa4035186551a7693": 8,
+        "7969923854d64accbec36ef762540d70": 8,
+        "5cafa9ae5a9e4b2ab529c9f08b47eb94": 3
+      },
+      "BOM": [],
+      "updateTime": 1704121632,
+      "createTime": 1701898392,
+      "histories": [],
+      "created_at": "2023-12-06 22:33:12",
+      "updated_at": "2024-01-01 16:07:12"
+    }
+  ],
+  "sort": [
+    "392195ee083a2aa889caaa72736f41a4"
+  ],
+  "title": "ENC_BOARD",
+  "foldername": "ENC_BOARD",
+  "schfilename": "ENC_BOARD.json",
+  "schfilemtime": 1704119132488
+}
